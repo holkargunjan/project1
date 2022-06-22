@@ -1,0 +1,356 @@
+<html>
+    <head>
+        <title>
+            Home Page
+        </title>
+        <link rel="shortcut icon" href="https://static-assets-web.flixcart.com/www/promos/new/20150528-140547-favicon-retina.ico">
+        <link rel="logo" href="logo.png" type="image">
+        <link rel="stylesheet" href="home.css">
+        <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    </head>
+    <body>
+        <!-- header section -->
+        <header>
+            <div class="cls1">
+                <div class="part1">
+                    <img src="flipkart.jpeg" >
+                </div>
+                <div class="part2">
+                    <select class="select">
+                        <option> 
+                        search for products,brand and more
+                        </option>
+                    </select>
+
+                </div>
+                <div class="part3">
+                    <ul>
+                        <li>
+                            <a href="listing.html" target="_blank">
+                                <span class="ts-text">Login</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="listing.html" target="_blank">
+                                <span class="ts-text">Become a seller</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="listing.html" target="_blank">
+                                <span class="ts-text">More</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="listing.html" target="_blank">
+                                <span class="ts-text1">Cart</span>
+                                <span class="ts-icon"><img src="cart2.png" alt=""></span>
+                            </a>
+                        </li>
+                    </ul>    
+
+                </div>
+
+
+            </div>
+        </header>
+        <!-- search section -->
+        <div id="search">
+            <div class="category">
+             <div class="cate1">
+                <a href="listing.html">
+                    <div class="men" >
+                        <img class ="image" src="https://rukminim1.flixcart.com/flap/128/128/image/cfcd9206ea8d98bf.png?q=100" alt="Men">
+                    </div>
+                    <div class="text">Men</div>
+                </a>
+             </div>
+             <div class="cate2">
+                <a href="listing.html">
+                    <div class="Women" >
+                        <img class ="image" src="https://rukminim1.flixcart.com/flap/128/128/image/9251ba195612c685.png?q=100" alt="women">
+                    </div>
+                    <div class="text">Women</div>
+                </a>
+             </div>
+             <div class="cate3">
+                <a href="listing.html">
+                    <div class="kids" >
+                        <img class ="image" src="https://rukminim1.flixcart.com/flap/128/128/image/9c447ab61e843e57.png?q=100" alt="kids">
+                    </div>
+                    <div class="text">Kids</div>
+                </a>
+             </div>
+             <div class="cate4">
+                <a href="listing.html">
+                    <div class="electronics" >
+                        <img class ="image" src="https://rukminim1.flixcart.com/flap/128/128/image/ffc530c33840306c.png?q=100" alt="electronics">
+                    </div>
+                    <div class="text-e">Electronics</div>
+                </a>
+             </div>
+             <div class="cate5">
+                <a href="listing.html">
+                    <div class="grocery" >
+                        <img class ="image" src="https://rukminim1.flixcart.com/flap/128/128/image/b9515d8011113c94.png?q=100" alt="grocery">
+                    </div>
+                    <div class="text">Grocery</div>
+                </a>
+             </div>
+             <div class="cate6">
+                <a href="listing.html">
+                    <div class="beauty" >
+                        <img class ="image" src="https://rukminim1.flixcart.com/flap/128/128/image/465fde018f876b35.png?q=100" alt="beauty">
+                    </div>
+                    <div class="text">Beauty</div>
+                </a>
+             </div>
+             <div class="cate7">
+                <a href="listing.html">
+                    <div class="home n furniture" >
+                        <img class ="image" src="https://rukminim1.flixcart.com/flap/128/128/image/fbca28e1a04d03de.png?q=100" alt="home & furniture">
+                    </div>
+                    <div class="text1">Home & furniture</div>
+                </a>
+             </div>
+            <div class="cate8">
+                <a href="listing.html">
+                    <div class="mobiles" >
+                        <img class ="image" src="https://rukminim1.flixcart.com/flap/128/128/image/fd16068b2335586e.png?q=100" alt="mobiles">
+                    </div>
+                    <div class="text">Mobiles</div>
+                </a>
+             </div>
+            </div>
+
+        </div>
+     <!--slider-->
+     
+    
+        
+            <div class="container">
+                <!-- Slider main container -->
+                <div class="swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img src="add2.png" alt=""></div>
+                    <div class="swiper-slide"><img src="ad1.png" alt=""></div>
+                    <div class="swiper-slide"><img src="add4.png" alt=""></div>
+          
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+              
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+      
+       
+            </div>
+    
+            </div>
+            <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+            <script>
+                const swiper = new Swiper('.swiper', {
+                    autoplay:{
+                        delay: 3000,
+                        disableOnInteraction:false,
+                    },
+                // Optional parameters
+                
+                loop: true,
+    
+                // If we need pagination
+                pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+                },
+    
+                // Navigation arrows
+               navigation: {
+               nextEl: '.swiper-button-next',
+               prevEl: '.swiper-button-prev',
+             },
+    
+              
+            });
+    
+            </script>
+    
+        
+           
+    <div class="section1">
+       <img class="img1"src="img1.png"/>
+     </div>
+     <div class = "deals">
+        <div class="deals-section">Deals of the Day</div>
+     </div>
+     <div class="section2">
+         <div >
+            <a href="listing.html">
+
+             <div class="kurta" >
+                
+                
+                        <img class ="section-image" src="https://rukminim1.flixcart.com/image/150/150/kw104nk0/ethnic-set/r/q/p/xxl-tffset009t-blue-the-fab-factory-original-imag8sn9yhbgnu9x.jpeg?q=70" >
+             </div>
+             <div class="section-text">Kurta palazzo sets</div>
+                 </a>
+        </div>
+               
+        <div>
+            <a href="listing.html">
+
+             <div class="tops" >
+                
+                    
+                        <img class ="section-image" src="https://rukminim1.flixcart.com/image/200/200/korijrk0/top/9/y/e/l-sftops40041-sassafras-original-imag35ct7ywhzjr5.jpeg?q=70" >
+             </div>
+             <div class="section-text">Tops</div>
+                </a>
+        </div>
+         <div>
+            <a href="listing.html">
+
+             <div class="shoes" >
+                
+                    
+                        <img class ="section-image" src="https://rukminim1.flixcart.com/image/312/312/k6jnfrk0/kids-shoe/7/h/d/4-airsocks01kidscorg-coscocnblue-asian-original-imaffwk7fkg6d8ud.jpeg?q=70">
+            </div>
+             <div class="section-text">Shoes</div>
+                </a>
+        </div>
+         <div>
+            <a href="listing.html">
+
+             <div class="bags" >
+
+                
+                        <img class ="section-image" src="https://rukminim1.flixcart.com/flap/200/200/image/f1ffa6330a602013.jpeg?q=70" alt="electronics">
+            </div>
+            <div class="section-text">Bags</div>
+                 </a>
+        </div>
+        <div>
+            <a href="listing.html">
+
+             <div class="jewellery" >
+
+            
+                        <img class ="section-image" src="https://rukminim1.flixcart.com/flap/150/150/image/43d9c318e1076cb2.jpeg?q=70" alt="jewellery">
+             </div>
+             <div class="section-text">Jewellery sets</div>
+                </a>
+         </div>
+        <div>
+            <a href="listing.html">
+
+             <div class="kidsclothes" >
+
+                        <img class ="section-image" src="https://rukminim1.flixcart.com/image/200/200/l2nmnww0/kids-apparel-combo/o/p/e/3-4-years-dsn-tsh-103-2-disney-by-miss-chief-original-imagdy9jjaegbvay.jpeg?q=70" alt="beauty">
+             </div>
+             <div class="section-text">Kids clothes</div>
+                </a>
+        </div>
+
+    </div>
+         
+        <!--discount for you-->
+        
+        <div class ="section3">
+            <div class="discount">
+                <div class="discount1">
+                    <h2 class="heading">Discounts for you</h2>
+
+                </div>
+                <div class="discount2">
+                    <a  class ="view-all" href="" >VIEW ALL</a>
+                </div>
+            </div>
+           
+        </div>
+
+            
+    <!--footer section-->
+    <div class ="description">
+        <h5 class="head1">Flipkart:The One-Stop Shopping Destination</h5>
+        <br>
+        <p class="p1"> 
+            E-commerce is revolutionizing the way we all shop in India. Why do you want to hop from one store to another in search of the latest phone when you can find it on the Internet in a single click? Not only mobiles. Flipkart houses everything you can possibly imagine, from trending electronics like laptops, tablets, smartphones, and mobile accessories to in-vogue fashion staples like shoes, clothing and lifestyle accessories; from modern furniture like sofa sets, dining tables, and wardrobes to appliances that make your life easy like washing machines, TVs, ACs, mixer grinder juicers and other time-saving kitchen and small appliances; from home furnishings like cushion covers, mattresses and bedsheets to toys and musical instruments, we got them all covered. You name it, and you can stay assured about finding them all here. For those of you with erratic working hours, Flipkart is your best bet. Shop in your PJs, at night or in the wee hours of the morning. This e-commerce never shuts down.
+            What's more, with our year-round shopping festivals and events, our prices are irresistible. We're sure you'll find yourself picking up more than what you had in mind. If you are wondering why you should shop from Flipkart when there are multiple options available to you, well, the below will answer your question.
+        </p>
+        <br>
+        <h5 class="head1">No Cost EMI</h5>
+        <br>
+        <p class="p1">
+            In an attempt to make high-end products accessible to all, our No Cost EMI plan enables you to shop with us under EMI, without shelling out any processing fee. Applicable on select mobiles, laptops, large and small appliances, furniture, electronics and watches, you can now shop without burning a hole in your pocket. If you've been eyeing a product for a long time, chances are it may be up for a no cost EMI. Take a look ASAP! Terms and conditions apply.
+        </p>
+        <br>
+        <h5 class="head1">EMI on Debit Cards</h5>
+        <br>
+        <p class="p1">
+            Did you know debit card holders account for 79.38 crore in the country, while there are only 3.14 crore credit card holders? After enabling EMI on Credit Cards, in another attempt to make online shopping accessible to everyone, Flipkart introduces EMI on Debit Cards, empowering you to shop confidently with us without having to worry about pauses in monthly cash flow. At present, we have partnered with Axis Bank, HDFC Bank, State Bank of India and ICICI Bank for this facility. More power to all our shoppers! Terms and conditions apply.
+        </p>
+        <br>
+        <h5 class="head1">Mobile Exchange Offers</h5>
+        <br>
+        <p class="p1">
+            Get an instant discount on the phone that you have been eyeing on. Exchange your old mobile for a new one after the Flipkart experts calculate the value of your old phone, provided it is in a working condition without damage to the screen. If a phone is applicable for an exchange offer, you will see the 'Buy with Exchange' option on the product description of the phone. So, be smart, always opt for an exchange wherever possible. Terms and conditions apply.
+        </p>
+        <br>
+        <h5 class="head1">What can you buy from flipkart?</h5>
+        <br>
+        <h5 class="head1">Mobile Phones</h5>
+        <br>
+        <p class="p1">
+            From budget phones to state-of-the-art smartphones, we have a mobile for everybody out there. Whether you're looking for larger, fuller screens, power-packed batteries, blazing-fast processors, beautification apps, high-tech selfie cameras or just large internal space, we take care of all the essentials. Shop from top brands in the country like Samsung, Apple, Oppo, Xiaomi, Realme, Vivo, and Honor to name a few. Rest assured, you're buying from only the most reliable names in the market. What's more, with Flipkart's Complete Mobile Protection Plan, you will never again find the need to run around service centres. This plan entails you to a number of post-purchase solutions, starting at as low as Rupees 99 only! Broken screens, liquid damage to phone, hardware and software glitches, and replacements - the Flipkart Complete Mobile Protection covers a comprehensive range of post-purchase problems, with door-to-door services.
+
+        </p>
+        <br>
+        <h5 class="head1">Electronics</h5>
+        <br>
+        <p class="p1">
+            When it comes to laptops, we are not far behind. Filter among dozens of super-fast operating systems, hard disk capacity, RAM, lifestyle, screen size and many other criterias for personalized results in a flash. All you students out there, confused about what laptop to get? Our Back To College Store segregates laptops purpose wise (gaming, browsing and research, project work, entertainment, design, multitasking) with recommendations from top brands and industry experts, facilitating a shopping experience that is quicker and simpler.
+
+            Photography lovers, you couldn't land at a better page than ours. Cutting-edge DSLR cameras, ever reliable point-and-shoot cameras, millennial favourite instant cameras or action cameras for adventure junkies: our range of cameras is as much for beginners as it is for professionals. Canon, Nikon, GoPro, Sony, and Fujifilm are some big names you'll find in our store. Photography lovers, you couldn't land at a better page than ours. Cutting-edge DSLR cameras, ever reliable point-and-shoot cameras, millennial favourite instant cameras or action cameras for adventure junkies: our range of cameras is as much for beginners as it is for professionals. Canon, Nikon, GoPro, Sony, and Fujifilm are some big names you'll find in our store.
+
+            Turn your home into a theatre with a stunning surround sound system. Choose from our elaborate range of Sony home theatres, JBL soundbars and Philips tower speakers for an experience to remember.
+
+            How about jazzing up your phone with our quirky designer cases and covers? Our wide-ranging mobile accessories starting from headphones, power banks, memory cards, mobile chargers, to selfie sticks can prove to be ideal travel companions for you and your phone; never again worry about running out of charge or memory on your next vacation.
+ 
+        </p>
+        <br>
+        <h5 class="head1">Lifestyle</h5>
+        <br>
+        <p class="p1">
+            Flipkart, 'India ka Fashion Capital', is your one-stop fashion destination for anything and everything you need to look good. Our exhaustive range of Western and Indian wear, summer and winter clothing, formal and casual footwear, bridal and artificial jewellery, long-lasting make-up, grooming tools and accessories are sure to sweep you off your feet. Shop from crowd favourites like Vero Moda, Forever 21, Only, Arrow, Woodland, Nike, Puma, Revlon, Mac, and Sephora among dozens of other top-of-the-ladder names. From summer staple maxi dresses, no-nonsense cigarette pants, traditional Bandhani kurtis to street-smart biker jackets, you can rely on us for a wardrobe that is up to date. Explore our in-house brands like Metronaut, Anmi, and Denizen, to name a few, for carefully curated designs that are the talk of the town. Get ready to be spoiled for choice.Festivals, office get-togethers, weddings, brunches, or nightwear - Flipkart will have your back each time.
+
+        </p>
+        <br>
+        <h5 class="head1">Grocery</h5>
+        <br>
+        <p class="p1">
+            Launching into the grocery vertical, Flipkart introduces Supermart that is out to bring everyday essentials close to you. From pulses, spices, dairy, personal and sanitary care, breakfast essentials, health drinks, spreads, ready to cook, grooming to cleaning agents, we are happy to present everything you need to run a house. Now buy Grocery products for as low as 1 Rupee only - our 1 Rupee Store presents new products every day for a nominal price of 1 Rupee only. Terms and conditions apply.
+        </p>
+    </div>
+<div class="footer">
+    <p id="footerText">&copy;Gunjan Holkar</p>
+    
+    <div class="footDiv">
+        <p>Contact Us</p>
+        <p>About Us</p>
+
+    </div>
+    <div class="footDiv">
+        <p>Conatct Us</p>
+        <p>About Us</p>
+
+    </div>
+    <div class="footDiv noBorder">
+        <p>Contact Us</p>
+        <p>About Us</p>
+
+    </div>
+</div>
+    </body>
+</html>

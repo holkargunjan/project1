@@ -1,0 +1,63 @@
+<div id="icon">
+           
+    <img src="flipkart.jpeg" alt="Flipkart" class="flogo"> 
+    
+</div>
+<div id="social">
+    <a href="wwww.facebook.com" target="blank" ><img src="linkedin.jpeg" alt="linkedin" class="slogo"></a>
+    <a href="wwww.instagram.com" target="blank" ><img src="insta.jpeg" alt="instagram" class="slogo"></a>
+</div>
+<div id="container">
+    <select class="select">
+        <option> 
+        search for products,brand and more
+        </option>
+    </select>
+</div>
+<div >
+    <a class="login" href="login.html">Login</a></div>
+
+
+
+
+    <div class="navigation-auto">
+        <div class="auto-btn1"></div>
+        <div class="auto-btn2"></div>
+        <div class="auto-btn3"></div>
+        <div class="auto-btn4"></div>
+      </div>
+
+      .navigation-auto{
+        position: absolute;
+        display: flex;
+        width: 1400px;
+        justify-content: center;
+        margin-top: 460px;
+      }
+      
+      .navigation-auto div{
+        border: 2px solid #f942a1;
+        padding: 5px;
+        border-radius: 10px;
+        transition: 1s;
+        
+      }
+      
+      .navigation-auto div:not(:last-child){
+        margin-right: 40px;
+      }
+      
+      #radio1:checked ~ .navigation-auto .auto-btn1{
+        background: #f942a1;
+      }
+      
+      #radio2:checked ~ .navigation-auto .auto-btn2{
+        background: #f942a1;
+      }
+      
+      #radio3:checked ~ .navigation-auto .auto-btn3{
+        background: #f942a1;
+      }
+      
+      #radio4:checked ~ .navigation-auto .auto-btn4{
+        background: #f942a1;
